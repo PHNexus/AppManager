@@ -5,11 +5,13 @@
 [![AnyLinux](https://img.shields.io/badge/AnyLinux-compatible-green?logo=linux&logoColor=white)](https://pkgforge-dev.github.io/Anylinux-AppImages/)
 ![GTK 4](https://img.shields.io/badge/GTK-4-blue?logo=gtk)
 ![Vala](https://img.shields.io/badge/Vala-compiler-blue?logo=vala)
-[![Copy of kem-a/AppManager](https://img.shields.io/badge/copy%20of-kem--a%2FAppManager-blue?logo=github)](https://github.com/kem-a/AppManager)
+[![Fork of kem-a/AppManager](https://img.shields.io/badge/fork%20of-kem--a%2FAppManager-blue?logo=github)](https://github.com/kem-a/AppManager)
 
 # <img width="48" height="48" alt="AppManager" src="https://github.com/user-attachments/assets/879952cc-d0b3-48c8-aa35-1132c7423fe0" /> AppManager
 
 > **Note:** This is a fork of [kem-a/AppManager](https://github.com/kem-a/AppManager). All credit goes to [@kem-a](https://github.com/kem-a). I do not own the original project.
+
+> **Used by:** [PHNexus/Hyprland-configs](https://github.com/PHNexus/Hyprland-configs) — this fork is automatically installed by the dotfiles `install.sh` to manage AppImages on the system.
 
 **AppManager** is a GTK/Libadwaita desktop utility written in **Vala** that makes installing and uninstalling AppImages on Linux painless. It supports both SquashFS and DwarFS AppImage formats, features a seamless background **auto-update** process, and leverages **zsync** delta updates for efficient bandwidth usage. Double-click any `.AppImage` to open a macOS-style drag-and-drop window — drag to install and AppManager will move the app, wire up desktop entries, and copy icons.
 
@@ -50,6 +52,10 @@
    ```
 
 Done. The app will appear in your application menu (wofi, rofi, GNOME Activities, etc.).
+
+### Automatic install via Hyprland-configs
+
+If you're using the [Hyprland-configs](https://github.com/PHNexus/Hyprland-configs) dotfiles, AppManager is installed automatically by the `install.sh` script — no manual steps needed.
 
 ## Usage
 
